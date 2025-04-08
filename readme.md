@@ -62,8 +62,8 @@ CodePro-Lead-scoring
 │   │   │   ├── leadscoring.csv
 │   │   │   └── leadscoring_inference.csv
 |   |   |-- profile_reports
-            ├── cleaned_data_report.html
-            └── raw_data_report.html
+|   |   |   ├── cleaned_data_report.html
+        |   └── raw_data_report.html
     │   └── unit_test
     │       ├── __init__.py
     │       ├── constants.py
