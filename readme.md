@@ -316,5 +316,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 For questions or further information, please reach out to:
 
-- **Maintainer:** [Amit Mohite]
-- **Email:** [mohite.amit@gmail.com]
+- **Maintainer:** [Arun Prakash]
+- **Email:** [prakash.arun01@gmail.com]
