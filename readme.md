@@ -50,7 +50,7 @@ This project implements a full-fledged MLOps pipeline to classify leads for Ed T
 ## Repository Structure
 
 ```
-airflow
+CodePro-Lead-scoring
 ├── airflow.cfg
 ├── dags
 │   ├── __init__.py
