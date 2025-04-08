@@ -17,7 +17,6 @@ Welcome to the Ed Tech CodePro Lead Classification project—a state-of-the-art 
   - [Data Pipeline](#data-pipeline)
   - [Training Pipeline](#training-pipeline)
   - [Inference Pipeline](#inference-pipeline)
-  - [Master Pipeline DAG](#master-pipeline-dag)
   - [Unit Testing](#unit-testing)
 - [Notebooks](#notebooks)
 - [Running the Project](#running-the-project)
@@ -257,13 +256,6 @@ If you want to completely reset your Airflow setup and start fresh:
 - **Key Components:**
   - Prediction scripts.
   - Schema definitions to ensure prediction consistency.
-
-### Master Pipeline DAG
-
-- **Location:** `airflow/dags/master_pipeline_dag.py`
-- **Purpose:** Orchestrate the overall workflow by coordinating the data, training, and inference pipelines.
-- **Key Components:**
-  - Workflow scheduling and dependency management.
 
 ### Unit Testing
 
