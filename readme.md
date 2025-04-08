@@ -72,12 +72,12 @@ CodePro-Lead-scoring
 |   │       └── unit_test_cases.db
 |           ├── scripts
 │   ├──  02_training_pipeline
-│   │   ├── __init__.py
-│   │   ├── constants.py
-│   │   ├── lead_scoring_inference_pipeline.py
-│   │   ├── prediction_distribution.txt
-│   │   ├── schema.py
-│   │   └── utils.py
+│   │   ├── data
+│   │   ├── notebooks
+│   │   ├── scripts
+|   |   |     |---lead_scoring_training_pipeline.py
+│   │   |     ├── schema.py
+│   │   |     └── utils.py
 │   ├──  03_inference_pipeline
 │   │   ├── __init__.py
 │   │   ├── constants.py
@@ -85,7 +85,7 @@ CodePro-Lead-scoring
 │   │   └── utils.py
 │   ├── master_pipeline_dag.py
 │   └── unit_test
-|   |    screenshots.pdf
+|   |   |   screenshots.pdf
 webserver_config.py
 ```
 
