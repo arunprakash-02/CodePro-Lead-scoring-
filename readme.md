@@ -53,20 +53,24 @@ This project implements a full-fledged MLOps pipeline to classify leads for Ed T
 CodePro-Lead-scoring
 ├── airflow.cfg
 ├── dags
-│   ├── __init__.py
-│   ├── lead_scoring_data_pipeline
-│   │   ├── __init__.py
-│   │   ├── constants.py
-│   │   ├── data
-│   │   │   ├── leadscoring.csv
-│   │   │   └── leadscoring_inference.csv
-│   │   ├── data_validation_checks.py
-│   │   ├── lead_scoring_data_cleaning.db
-│   │   ├── lead_scoring_data_pipeline.py
+│   ├── 01_data_pipeline
 │   │   ├── mappings
 │   │   │   ├── city_tier_mapping.py
 │   │   │   ├── interaction_mapping.csv
 │   │   │   └── significant_categorical_level.py
+│   │   ├── data
+│   │   │   ├── leadscoring.csv
+│   │   │   └── leadscoring_inference.csv
+│   │   ├── __init__.py
+│   │   ├── constants.py
+|   |   |-- profile_reports
+        ├── cleaned_data_report.html
+        └── raw_data_report.html
+
+│   │   ├── data_validation_checks.py
+│   │   ├── lead_scoring_data_cleaning.db
+│   │   ├── lead_scoring_data_pipeline.py
+
 │   │   ├── schema.py
 │   │   └── utils.py
 │   ├── lead_scoring_inference_pipeline
@@ -99,9 +103,7 @@ notebooks
 │   ├── city_tier_mapping.py
 │   ├── interaction_mapping.csv
 │   └── significant_categorical_level.py
-└── profile_reports
-    ├── cleaned_data_report.html
-    └── raw_data_report.html
+└── 
 screenshots.pdf
 webserver_config.py
 ```
