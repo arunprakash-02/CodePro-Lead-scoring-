@@ -61,11 +61,16 @@ CodePro-Lead-scoring
 │   │   ├── data
 │   │   │   ├── leadscoring.csv
 │   │   │   └── leadscoring_inference.csv
-│   │   ├── __init__.py
-│   │   ├── constants.py
 |   |   |-- profile_reports
-        ├── cleaned_data_report.html
-        └── raw_data_report.html
+            ├── cleaned_data_report.html
+            └── raw_data_report.html
+    │   └── unit_test
+    │       ├── __init__.py
+    │       ├── constants.py
+    │       ├── leadscoring_test.csv
+    │       ├── test_runner_dag.py
+    │       ├── test_with_pytest.py
+    │       └── unit_test_cases.db
 
 │   │   ├── data_validation_checks.py
 │   │   ├── lead_scoring_data_cleaning.db
