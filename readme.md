@@ -51,8 +51,7 @@ This project implements a full-fledged MLOps pipeline to classify leads for Ed T
 
 ```
 CodePro-Lead-scoring
-├── airflow.cfg
-├── dags
+|   ├── airflow.cfg
 │   ├── 01_data_pipeline
 │   │   ├── mappings
 │   │   │   ├── city_tier_mapping.py
@@ -63,53 +62,30 @@ CodePro-Lead-scoring
 │   │   │   └── leadscoring_inference.csv
 |   |   |-- profile_reports
 |   |   |   ├── cleaned_data_report.html
-        |   └── raw_data_report.html
-    │   └── unit_test
-    │       ├── __init__.py
-    │       ├── constants.py
-    │       ├── leadscoring_test.csv
-    │       ├── test_runner_dag.py
-    │       ├── test_with_pytest.py
-    │       └── unit_test_cases.db
-
-│   │   ├── data_validation_checks.py
-│   │   ├── lead_scoring_data_cleaning.db
-│   │   ├── lead_scoring_data_pipeline.py
-
-│   │   ├── schema.py
-│   │   └── utils.py
-│   ├── lead_scoring_inference_pipeline
+|   |   |   └── raw_data_report.html
+|   │   └── unit_test
+|   │       ├── __init__.py
+|   │       ├── constants.py
+|   │       ├── leadscoring_test.csv
+|   │       ├── test_runner_dag.py
+|   │       ├── test_with_pytest.py
+|   │       └── unit_test_cases.db
+|           ├── scripts
+│   ├──  02_training_pipeline
 │   │   ├── __init__.py
 │   │   ├── constants.py
 │   │   ├── lead_scoring_inference_pipeline.py
 │   │   ├── prediction_distribution.txt
 │   │   ├── schema.py
 │   │   └── utils.py
-│   ├── lead_scoring_training_pipeline
+│   ├──  03_inference_pipeline
 │   │   ├── __init__.py
 │   │   ├── constants.py
 │   │   ├── lead_scoring_training_pipeline.py
 │   │   └── utils.py
 │   ├── master_pipeline_dag.py
 │   └── unit_test
-│       ├── __init__.py
-│       ├── constants.py
-│       ├── leadscoring_test.csv
-│       ├── test_runner_dag.py
-│       ├── test_with_pytest.py
-│       └── unit_test_cases.db
-notebooks
-├── 01.data_cleaning.ipynb
-├── 02.model_experimentation.ipynb
-├── data
-│   ├── cleaned_data.csv
-│   └── leadscoring.csv
-├── mappings
-│   ├── city_tier_mapping.py
-│   ├── interaction_mapping.csv
-│   └── significant_categorical_level.py
-└── 
-screenshots.pdf
+|   |    screenshots.pdf
 webserver_config.py
 ```
 
